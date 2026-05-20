@@ -1,5 +1,5 @@
 import { useDispatch, useSelector } from "react-redux";
-import { setQuery } from "../features/movieSlice";
+import { setQuery } from "../slices/movieSlice";
 
 import { FaSearch, FaFilm, FaFire, FaMoon } from "react-icons/fa";
 
