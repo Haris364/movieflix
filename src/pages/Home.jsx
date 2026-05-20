@@ -18,7 +18,7 @@ import MovieCard from "../components/MovieCard";
 import Loader from "../components/Loader";
 import Filters from "../components/Filters";
 
-import { nextPage, prevPage } from "../features/movieSlice";
+import { nextPage, prevPage } from "../slices/movieSlice";
 
 export default function Home() {
   const dispatch = useDispatch();

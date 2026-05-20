@@ -18,7 +18,7 @@ import {
   setYear,
   setLanguage,
   setOrderBy,
-} from "../features/movieSlice";
+} from "../slices/movieSlice";
 
 export default function Filters() {
   const dispatch = useDispatch();
